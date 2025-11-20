@@ -1,0 +1,1 @@
+HTML is a Hyper Text Markup Language . it is the code that is used to structure  a web page and its component.The component used to design the structure of website are called HTML tags.
