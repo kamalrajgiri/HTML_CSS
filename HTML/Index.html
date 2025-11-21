@@ -1,186 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML</title>
-  </head>
-  <body>
-    <p>index.html is the default name for a website's homepage.</p>
-    <p>
-      When a user visits a website without specifying a particular page (e.g.,
-      www.example.com), the web server automatically looks for a file named
-      index.html (or index.htm) in the root directory of the website and serves
-      it as the default page.
-    </p>
-    <!-- This is comment -->
-    <p>Html is not case sensitive</p>
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
-    <h3>Heading 3</h3>
-    <h4>Heading 4</h4>
-    <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
-    <p>This is a paragraph.</p>
-    <b>This text is bold.</b><br />
-    <i>This text is italic.</i><br />
-    <u>This text is underlined.</u><br />
-    <strong>This text is strong.</strong><br />
-    <em>This text is emphasized.</em><br />
-    <mark>This text is highlighted.</mark><br />
-    <big>This text is big.</big><br />
-    <small>This text is small.</small><br />
-    <del>This text is deleted.</del><br />
-    <ins>This text is inserted.</ins><br />
-    <sub>This is <sub>subscript</sub> text.</sub><br />
-    <sup>This is <sup>superscript</sup> text.</sup><br />
-    <pre>
-        This 
-            is a 
-                 pre tag. 
-    </pre>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML</title>
+    </head>
+    <body>
+        <p>index.html is the default name for a website's homepage.</p>
+        <p>
+            When a user visits a website without specifying a particular page (e.g.,
+            www.example.com), the web server automatically looks for a file named
+            index.html (or index.htm) in the root directory of the website and serves
+            it as the default page.
+        </p>
+        <!-- This is comment -->
+        <p>Html is not case sensitive</p>
 
-    <hr />
-    <!-- horizontal ruler -->
-    <!-- line break  -->
-    <br />
-    <!--  anchor tag. -->
-    <a href="https://google.com">Google</a><br />
-    <!-- use target attribute to open link in a new tab or same tab. -->
-    <a href="https://google.com" target="_main">Google</a><br />
-    <!-- use img tag to add clickable image. -->
-    <a href="https://google.com"
-      ><img
-        src="../Image/Google.png"
-        height="30"
-        width="30"
-        alt="Google Logo" /></a
-    ><br />
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
 
-    <!-- Image tag -->
-    <img
-      src="https://cdn.pixabay.com/photo/2017/09/08/21/39/spiral-2730290_1280.jpg"
-      height="250"
-      width="250"
-      alt="Random image"
-    /><br />
-    <img
-      src="../Image/Tree.png"
-      height="350"
-      width="250"
-      alt="Tree Image"
-    /><br />
-    <!-- sematic tags -->
-    <header>
-      <h2>This is header tag</h2>
-    </header>
-    <nav>
-      <h3>This is nav tag</h3>
-    </nav>
-    <section>
-      <h4>This is section tag</h4>
-    </section>
-    <article>
-      <h5>This is article tag</h5>
-    </article>
-    <aside>
-      <h6>This is aside tag</h6>
-    </aside>
-    <footer>
-      <h2>This is footer tag</h2>
-    </footer>
-    <div>
-      <h2>This is div tag</h2>
-    </div>
-    <hr />
-    <br /><br />
-    <h1>List in Html</h1>
-    <br />
-    <h2>Unordered List</h2>
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-    </ul>
-    <br />
-    <h2>Ordered List</h2>
-    <ol>
-      <li>First Item</li>
-      <li>Second Item</li>
-      <li>Third Item</li>
-    </ol>
-    <br />
-    <hr />
-    <h1>Table in Html</h1>
-    <table border="1">
-      <caption>
-        Sample Table
-      </caption>
-      <tr>
-        <th>Header 1</th>
-        <th>Header 2</th>
-        <th>Header 3</th>
-      </tr>
-      <tr>
-        <td>Row 1, Cell 1</td>
-        <td>Row 1, Cell 2</td>
-        <td>Row 1, Cell 3</td>
-      </tr>
-      <tr>
-        <td>Row 2, Cell 1</td>
-        <td>Row 2, Cell 2</td>
-        <td>Row 2, Cell 3</td>
-      </tr>
-      <!-- colspan example -->
-      <tr>
-        <td colspan="2">Row 3, Cell 1 and 2 merged</td>
-        <td>Row 3, Cell 3</td>
-      </tr>
-      <!-- rowspan example -->
-      <tr>
-        <td rowspan="2">Row 4 and 5, Cell 1 merged</td>
-        <td>Row 4, Cell 2</td>
-        <td>Row 4, Cell 3</td>
-      </tr>
-      <tr>
-        <td>Row 5, Cell 2</td>
-        <td>Row 5, Cell 3</td>
-      </tr>
-    </table>
-    <hr>
-    <h1>Form in Html</h1>
-    <form >
-<input type="text" name="" id="" placeholder="Enter your name"><br>
-<input type="email" name="" id="" placeholder="Enter your email"><br>
-<input type="password" name="" id="" placeholder="Enter your password"><br>
-<label for="id1">
-    <input type="radio" name="class" id="id1" value="classx">
-</label>
-<label for="id2">
-    <input type="radio" name="class" id="id2" value="classx">
-</label><br>
-cleckboxes:<br>
-<label for="check1">
-    <input type="checkbox" name="hobby" id="check1" value="reading">Reading
-</label>
-<label for="check2">
-    <input type="checkbox" name="hobby" id="check2" value="traveling">Traveling
-</label><br>
-textarea:<br>
-<textarea name="message" id="msg" cols="30" rows="5" placeholder="Enter your message"></textarea><br>
-<select name="cars" id="carselect">
-    <option value="volvo">Volvo</option>
-    <option value="bmw">BMW</option>
-    <option value="audi">Audi</option>
-</select><br>
-<input type="submit" value="Submit">
-    </form>
-    <br><br><hr>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/yVDpgrbuL20?si=S41xj06q2kCeulOT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
-vedeo tag:<br>
-<video width="320" height="240" controls>
-  <source src="../Image/reel.mp4" controls height="240" width="120"  /> 
-  Your browser does not support the video tag.
-</video><br>
-  </body>
-</html>
+        <p>This is a paragraph.</p>
+
+        <b>This text is bold.</b><br />
+        <i>This text is italic.</i><br />
+        <u>This text is underlined.</u><br />
+        <strong>This text is strong.</strong><br />
+        <em>This text is emphasized.</em><br />
+        <mark>This text is highlighted.</mark><br />
+        <big>This text is big.</big><br />
+        <small>This text is small.</small><br />
+        <del>This text is deleted.</del><br />
+        <ins>This text is inserted.</ins><br />
+        <sub>This is <sub>subscript</sub> text.</sub><br />
+        <sup>This is <sup>superscript</sup> text.</sup><br />
+
+        <pre>
+                This 
+                        is a 
+                                 pre tag. 
+        </pre>
+
+        <hr />
+        <!-- horizontal ruler -->
+        <!-- line break  -->
+        <br />
+        <!--  anchor tag. -->
+        <a href="https://google.com">Google</a><br />
+        <!-- use target attribute to open link in a new tab or same tab. -->
+        <a href="https://google.com" target="_main">Google</a><br />
+        <!-- use img tag to add clickable image. -->
+        <a href="https://google.com">
+            <img src="../Image/Google.png" height="30" width="30" alt="Google Logo" />
+        </a>
+        <br />
+
+        <!-- Image tag -->
+        <img
+            src="https://cdn.pixabay.com/photo/2017/09/08/21/39/spiral-2730290_1280.jpg"
+            height="250"
+            width="250"
+            alt="Random image"
+        /><br />
+        <img src="../Image/Tree.png" height="350" width="250" alt="Tree Image" /><br />
+
+        <!-- sematic tags -->
+        <header>
+            <h2>This is header tag</h2>
+        </header>
+        <nav>
+            <h3>This is nav tag</h3>
+        </nav>
+        <section>
+            <h4>This is section tag</h4>
+        </section>
+        <article>
+            <h5>This is article tag</h5>
+        </article>
+        <aside>
+            <h6>This is aside tag</h6>
+        </aside>
+        <footer>
+            <h2>This is footer tag</h2>
+        </footer>
+        <div>
+            <h2>This is div tag</h2>
+        </div>
+
+        <hr />
+        <br /><br />
+
+        <h1>List in Html</h1>
+        <br />
+        <h2>Unordered List</h2>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <br />
+        <h2>Ordered List</h2>
+        <ol>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ol>
+        <br />
+        <hr />
+
+        <h1>Table in Html</h1>
+        <table border="1"></table>
+            <caption>Sample Table</caption>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+            </tr>
+            <tr>
+                <td>Row 1, Cell 1</td>
+                <td>Row 1, Cell 2</td>
+                <td>Row 1, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 2, Cell 1</td>
+                <td>Row 2, Cell 2</td>
+                <td>Row 2, Cell 3</td>
+            </tr>
+            <!-- colspan example -->
+            <tr>
+                <td colspan="2">Row 3, Cell 1 and 2 merged</td>
+                <td>Row 3, Cell 3</td>
+            </tr>
+            <!-- rowspan example -->
+            <tr>
+                <td rowspan="2">Row 4 and 5, Cell 1 merged</td>
+                <td>Row 4, Cell 2</td>
+                <td>Row 4, Cell 3</td>
+            </tr>
+            <tr>
+                <td>Row 5, Cell 2</td>
+                <td>Row 5, Cell 3</td>
+            </tr>
+        </table>
+
+        <hr>
+        <h1>Form in Html</h1>
+        <form>
+            <input type="text" name="" id="" placeholder="Enter your name" /><br />
+            <input type="email" name="" id="" placeholder="Enter your email" /><br />
+            <input type="password" name="" id="" placeholder="Enter your password" /><br />
+            <label for="id1"></label>
+                <input type="radio" name="class" id="id1" value="classx" />
+            </label>
+            <label for="id2"></label>
+                <input type="radio" name="class" id="id2" value="classx" />
+            </label>
+            <br />
+            cleckboxes:<br />
+            <label for="check1">
+                <input type="checkbox" name="hobby" id="check1" value="reading" />Reading
+            </label>
+            <label for="check2"></label>
+                <input type="checkbox" name="hobby" id="check2" value="traveling" />Traveling
+            </label>
+            <br />
+            textarea:<br />
+            <textarea name="message" id="msg" cols="30" rows="5" placeholder="Enter your message"></textarea
+            ><br />
+            <select name="cars" id="carselect">
+                <option value="volvo">Volvo</option>
+                <option value="bmw">BMW</option>
+                <option value="audi">Audi</option>
+            </select>
+            <br />
+            <input type="submit" value="Submit" />
+        </form>
+
+        <br /><br /><hr />
+        <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/yVDpgrbuL20?si=S41xj06q2kCeulOT"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+        ></iframe>
+        <br />
+        vedeo tag:<br />
+        <video width="320" height="240" controls>
+            <source src="../Image/reel.mp4" controls height="240" width="120" />
+            Your browser does not support the video tag.
+        </video>
+        <br />
+    </body>
+</html></video>
