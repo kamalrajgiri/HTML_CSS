@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 5</title>
+    <style>
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #f0f0f0;
+    width: 70%;
+    margin: auto;
+}
+.box{
+    padding: 20px;
+    border: 2px solid #333;
+    background-color: #e9c9c9;
+    text-align: center;
+    transition: font-size 2s ease-in-out 1s;
+    transform: rotate(-25deg);
+    animation: animate 2s infinite  alternate both normal;
+}
+@keyframes animate {
+    from{
+        font-size: 14px;
+        background-color:  #e9c9c9;
+    }
+    to{
+        font-size: 24px;
+        background-color: #c9e9c9;}
+    
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Level 5</h1>
+            <p>This is Level 5 HTML and CSS structure.</p>
+        </div>
+    </div>
+</body>
+</html>
